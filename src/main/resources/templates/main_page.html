@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="static/style/main.css" th:href="@{/style/main.css}" media="screen" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="wrapp">
+        <!--HEADER-->
+        <div id="header">
+            <div id="top-header">
+                <div id="top-header-content">
+                    <div class="social">
+                     <a href="https://vk.com/" >  <img class="social1" src="image_main/vK Circled.png" alt="vk"></a>
+                     <a href="https://desktop.telegram.org/" >  <img class="social1" src="image_main/telegram App.png" alt="tg"> </a>
+                     <a href="https://ru-ru.facebook.com" >  <img class="social1" src="image_main/facebook.png" alt="fb"></a>
+                     <a href="https://twitter.com/?lang=ru"> <img class="social1" src="image_main/twitter.png" alt="twitter"> </a>
+                     <a href="https://www.instagram.com/">   <img class="social1" src="image_main/instagram Circle.png" alt="instagram"></a>
+                     <a href="https://www.tiktok.com/ru-RU/">    <img class="social1" src="image_main/tikTok.png" alt="tiktok"> </a>
+                     <a href="https://www.youtube.com/">   <img class="social1" src="image_main/youTube Logo.png" alt="youtube"></a>
+                    </div>
+                    <div class="top_header_btn">
+                        <div class="version">
+                            <a  href="#">Версия для слабовидящих</a>
+                        </div>
+                        <div class="lang_switch">
+                            <p>RU <img src="image_main/image 8.png" alt="icon"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main_header_content">
+                <div class="logo">
+                    <a href="https://cchgeu.ru/"><img src="image_main/logovgtu.png" alt="logo"></a>
+                </div>
+                <div class="search_login">
+                    <input type="search" id="mySearch" name="q" placeholder="Введите ваш запрос">
+                    <a class="button" href="#">Вход/Регистрация</a>
+                </div>
+            </div>
+        </div>
+        <!--END HEADER-->
+        <!--CONTENT AREA-->
+        <div id="content">
+            <div class="container">     
+                <div class="title">
+                    <h1>Выберите интереcующую Вас услугу:</h1>
+                </div>
+                <div class="row-services">
+                    <div class="column services">
+                        <img src="image_main/Group 38.png" alt=""><a href="#">Получение электронных документов</a>
+                    </div>
+                    <div class="column services">
+                        <img src="image_main/Group 40.png" alt=""><a href="#">Личный кабинет</a>
+                    </div>
+                    <div class="column services">
+                        <img src="image_main/Group 42.png" alt=""><a href="#">Моя зачетная книжка</a>
+                    </div>
+                 </div>    
+                 <div class="row-services2">
+                    <div class="column services">
+                        <img src="image_main/Group 39.png" alt=""><a href="#">Мероприятия</a>
+                    </div><div class="column services">
+                        <img src="image_main/Group 41.png" alt=""><a href="#">Расписание</a>
+                    </div><div class="column services">
+                        <img src="image_main/Group 43.png" alt=""><a href="#">Техподдержка</a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

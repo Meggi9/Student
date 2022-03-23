@@ -1,0 +1,323 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#526fa4;
+	font-size:16px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, ol, ul, li{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+h1{
+    font-size: 34px
+}
+h2{
+	font-size:26px;
+}
+h3{
+	font-size:18px;
+}
+h1, h2, h3, h4, h5, p{
+	line-height: 1.66em;
+}
+a{
+	text-decoration: none;
+}
+#wrapp{
+	width: 100%;
+}
+#top-header{
+	background-color: #526fa4;
+	width: 100%;
+}
+#top-header-content{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+.top_header_btn {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.version>a{
+	color: #ffffff;
+	line-height: 1.63em;
+}
+.version>a:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../image_entrance/Eye.png);
+    margin-left: 5px;
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+}
+.lang_switch {
+    border-radius: 30px;
+    background-color: #6b8bc2;
+}
+.lang_switch>p {
+    margin: 0;
+    line-height: 30px;
+}
+.lang_switch {
+	padding-left: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.lang_switch>p>img {
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+#main_header_content{
+	width: 1200px;
+	margin: auto;
+	padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.search_login {
+    align-self: flex-start;
+}
+input#mySearch {
+    background-color: #e4e4e4;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.button {
+    background-color: #526fa4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.enterButton{
+    position: absolute;
+width: 370px;
+height: 45px;
+left: 415px;
+top: 386px;
+border: transparent;
+background: #526FA4;
+border-radius: 20px;
+}
+
+/* Вход */
+
+.Input{
+    position: absolute;
+    width: 32px;
+    height: 16px;
+    left: 415px;
+    top: 232px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #526FA4;
+}
+
+
+.Rectangle_43 {
+    position: absolute;
+    width: 370px;
+    height: 45px;
+    left: 415px;
+    top: 256px;
+    border: transparent;
+
+    background: #FFFFFF;
+}
+
+.Rectangle_44{
+    position: absolute;
+width: 370px;
+height: 45px;
+left: 415px;
+top: 316px;
+border: transparent;
+background: #FFFFFF;
+}
+
+.Rectangle_45{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 415px;
+    top: 369px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+}
+
+/* Логин/Почта */
+
+.inputwords{
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 430px;
+    top: 270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(82, 111, 164, 0.65);
+}
+
+/* Запомнить логин */
+
+.rememberpassvord{
+    position: absolute;
+    width: 82px;
+    height: 12px;
+    left: 428px;
+    top: 367px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+
+    color: #526FA4;
+}
+
+
+
+
+/* Забыли пароль? */
+
+.forgetpass{
+    position: absolute;
+    width: 78px;
+    height: 12px;
+    left: 415px;
+    top: 438px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: #526FA4;
+
+}
+
+.pass{
+    position: absolute;
+width: 50px;
+height: 16px;
+left: 430px;
+top: 330px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: rgba(82, 111, 164, 0.65);
+}
+/* Войти */
+
+.inButten{
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    left: 574px;
+    top: 400px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+/* Логин/Почта */
+
+.inLable{
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 430px;
+    top: 270px;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: rgba(82, 111, 164, 0.65);
+}
+
+.form-signin{
+    position: absolute;
+    width: 370px;
+    height: 45px;
+    left: 389px;
+    top: 50px;
+}
+
+
+
+#content {
+    background-image: url(../image_entrance/unsplash_mQiZnKwGXW0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+    width: 100%;
+    padding: 5% 15px;
+}
+.row-services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.services {
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+
+img.social1 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+img.social1:hover {
+    -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+            transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+  }

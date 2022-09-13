@@ -33,7 +33,6 @@ public class Student implements UserDetails {
     @Column(name = "phone")
     private String phone;
 
-
     @Column(name = "username")
     private String username;
 
@@ -44,6 +43,11 @@ public class Student implements UserDetails {
     @CollectionTable(name= "role_student", joinColumns = @JoinColumn(name = "student_id"))
     @Enumerated(EnumType.STRING)
 private Set<Role> roles;
+
+    @Override
+    public String toString() {
+        return surname+" "+name+" "+patronymic;
+    }
 
     public Student() {
     }
@@ -126,8 +130,6 @@ private Set<Role> roles;
 
         return getRoles();
     }
-
-
     @Override
     public boolean isAccountNonExpired() {
         return true;

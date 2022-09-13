@@ -7,6 +7,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import com.example.application.Enity.Student;
+import org.springframework.web.servlet.support.JstlUtils;
 
 import java.util.List;
 import java.util.Optional;
@@ -26,6 +27,12 @@ public class StudentService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return studentRepo.findByUsername(username);
     }
+
+    public Optional<Student> findById(Long id)
+    {
+        return studentRepo.findById(id);
+    }
+
 }
 
 

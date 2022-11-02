@@ -4,7 +4,7 @@
 * Java 
 * Spring Boot
 * Spring MVC
-* Spring Security
+* Spring Security (в том числе использование аннотации @AuthenticationPrincipal)
 * JPA (также JpaRepository)
 * JDBC Template
 * RowMapper

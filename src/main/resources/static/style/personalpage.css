@@ -1,0 +1,440 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#526fa4;
+	font-size:16px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, ol, ul, li{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+h1{
+    font-size: 34px
+}
+h2{
+	font-size:26px;
+}
+h3{
+	font-size:18px;
+}
+h1, h2, h3, h4, h5, p{
+	line-height: 1.66em;
+}
+a{
+	text-decoration: none;
+}
+#wrapp{
+	width: 100%;
+}
+#top-header{
+	background-color: #526fa4;
+	width: 100%;
+}
+#top-header-content{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+.top_header_btn {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.version>a{
+	color: #ffffff;
+	line-height: 1.63em;
+}
+.version>a:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(image/Eye.png);
+    margin-left: 5px;
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+}
+.lang_switch {
+    border-radius: 30px;
+    background-color: #6b8bc2;
+}
+.lang_switch>p {
+    margin: 0;
+    line-height: 30px;
+}
+.lang_switch {
+	padding-left: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.lang_switch>p>img {
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+#main_header_content{
+	width: 1200px;
+	margin: auto;
+	padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.search_login {
+    align-self: flex-start;
+}
+input#mySearch {
+    background-color: #e4e4e4;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.button {
+    background-color: #526fa4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.enterButton{
+    position: absolute;
+width: 139px;
+height: 33px;
+left: 315px;
+top: 344px;
+border: transparent;
+background: #526FA4;
+}
+/* Group 35 */
+
+.group{
+    position: absolute;
+    width: 370px;
+    height: 45px;
+    left: 389px;
+    top: 50px;
+}
+
+/* Вернуться на главную */
+
+.toBack{
+    position: absolute;
+    width: 147px;
+    height: 16px;
+    left: 917px;
+    top: 602px;
+    font-weight:bold;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #526FA4;
+}
+.putemail{
+    position: absolute;
+width: 194px;
+height: 16px;
+left: 115px;
+top: 496px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;
+}
+
+.putcountry{
+    position: absolute;
+width: 47px;
+height: 16px;
+left: 115px;
+top: 558px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;
+}
+.putcity{
+    position: absolute;
+width: 58px;
+height: 16px;
+left: 115px;
+top: 620px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;
+
+}
+
+
+
+.img{
+    position: absolute;
+width: 170px;
+height: 170px;
+left: 115px;
+top: 270px;
+
+background: url(image.png);
+}
+/*Кнопка "На главную" */
+
+.buttonToBack{
+    position: absolute;
+    width: 207px;
+    height: 45px;
+    left: 887px;
+    top: 588px;
+    
+background: #FFFFFF;
+border: 1px solid #526FA4;
+box-sizing: border-box;
+}
+
+
+.name{
+    
+position: absolute;
+width: 339px;
+height: 28px;
+left: 315px;
+top: 270px;
+font-weight:bold;
+
+font-family: 'Roboto';
+font-style: normal;
+
+font-size: 24px;
+line-height: 28px;
+
+color: #526FA4;
+}
+
+
+
+ /* Студент */
+
+.student{
+ position: absolute;
+width: 53px;
+height: 16px;
+left: 315px;
+top: 308px;
+font-weight:bold;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;    
+}
+
+
+.Rectangle_43 {
+    position: absolute;
+    width: 370px;
+    height: 45px;
+    left: 415px;
+    top: 256px;
+    border: transparent;
+
+    background: #FFFFFF;
+}
+
+.Rectangle_44{
+    position: absolute;
+width: 370px;
+height: 45px;
+left: 415px;
+top: 316px;
+border: transparent;
+background: #FFFFFF;
+}
+
+.Rectangle_45{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 415px;
+    top: 369px;
+   
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+ /* Изменить данные */
+.changeDate{
+  
+position: absolute;
+width: 121px;
+height: 16px;
+left: 315px;
+top: 397px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+
+color: #526FA4;  
+}
+
+ /* Сменить пароль */
+.changePass{
+position: absolute;
+width: 109px;
+height: 16px;
+left: 315px;
+top: 428px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+
+color: #526FA4;
+}
+
+/* Адрес электронной почты: */
+
+.email{
+    position: absolute;
+    width: 179px;
+    height: 16px;
+    left: 115px;
+    top: 470px;
+    font-family: 'Roboto';
+    font-weight:bold;
+font-style: normal;
+
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;
+
+}
+ /* Страна: */
+.country{
+ position: absolute;
+width: 51px;
+height: 16px;
+left: 115px;
+top: 532px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight:bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;
+
+}
+
+/* Город: */
+.city{  
+position: absolute;
+width: 43px;
+height: 16px;
+left: 115px;
+top: 594px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight:bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #526FA4;
+}
+
+ /* Моя зачетка */
+.inButten{
+  position: absolute;
+width: 84px;
+height: 16px;
+left: 342px;
+top: 353px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+}
+
+/* Логин/Почта */
+
+
+
+
+
+#content {
+    background-image: url(unsplash_mQiZnKwGXW0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+    width: 100%;
+    padding: 5% 15px;
+}
+.row-services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.services {
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+
+img.social1 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+img.social1:hover {
+    -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+            transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+  }

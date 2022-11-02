@@ -37,8 +37,6 @@ public class studentRegistration {
 
         student.setRoles(Collections.singleton(Role.Student));
         studentRepo.save(student);
-//        System.out.println(student.getRecord_number());
         return "redirect:/login";
-//        return "/login";
     }
 }

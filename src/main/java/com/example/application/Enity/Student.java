@@ -15,8 +15,9 @@ import java.util.Set;
 @Table(name = "students")
 public class Student implements UserDetails {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long record_number;
+    @Column(name = "student_id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long student_id;
 
     @Column(name = "name")
     private String name;
@@ -53,11 +54,11 @@ private Set<Role> roles;
     }
 
     public Long getRecord_number() {
-        return record_number;
+        return student_id;
     }
 
     public void setRecord_number(Long record_number) {
-        this.record_number = record_number;
+        this.student_id = record_number;
     }
 
     public String getName() {
